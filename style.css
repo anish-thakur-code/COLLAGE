@@ -1,0 +1,1097 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+  height: 70px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: #f6f0e6;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
+.nav-data{
+  display: flex;
+  width: 44%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  
+}
+.nav-data a button{
+  padding: .5rem;
+  border-radius: 0.7rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #6c4327;
+  
+}
+.nav-data a{
+  color: #6c4327;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    gap:7rem;
+    background-color: #E0D8CB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* box-shadow: 0 2px 2px ; */
+}
+
+.box1 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 70%;
+    display: flex;
+    
+}
+
+.box2 ul a {
+    color: #6c432b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.box2 ul {
+     width: 100%;
+     height: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+      justify-content: space-around;
+    
+}
+
+.box2 ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.0.1rem;
+}
+
+
+
+
+
+/* this is for the hero section */
+.container{
+  width: 100%;
+  height: 900px;
+  /* border: 1px solid black; */
+  display: flex;
+  background-color: #ebf3f4;
+}
+.left-box{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+}
+.ad1{
+  height: 28%;
+  width: 70%;
+  /* border: 1px solid black; */
+  background-color: #012d45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  position: absolute;
+  top: 23%;
+  left: 12%;
+  animation: slideleft 1s ease forwards;  
+      opacity: 0;
+}
+@keyframes slideleft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+}
+100%{
+      opacity: 1;
+      transform: translateX(0);
+}
+}
+.ad1 h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 1.05rem;
+}
+.ad2{
+  position: absolute;
+  top: 59%;
+  left: 12%;
+  animation: slideleft 1s ease forwards;  
+}
+.ad3{
+  position: absolute;
+  top:81%;
+  left: 12%;
+  width: 68%;
+  height:30% ;
+  animation: slideleft 1s ease forwards;  
+  
+}
+.ad3 h1{
+  color: #002e47;
+  font-size: 1.6rem;
+}
+.right-box{
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+}
+.head-img{
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width:50% ;
+  height: 90%;
+  /* border: 1px solid black; */
+  background-image: url("/MARWADI/IMAGE/3.png");
+  background-size: cover;
+  background-position: center;
+  animation: slide 5s 2s normal infinite;
+}
+@keyframes slide 
+{
+ 0%{
+  background-image: url("/MARWADI/IMAGE/3.png");
+ } 
+ 33%{
+  background-image: url("/MARWADI/IMAGE/boy.png");
+ }
+ 66%{
+  background-image: url("/MARWADI/IMAGE/fool.png");
+ }
+ 100%{
+  background-image: url("/MARWADI/IMAGE/3.png");
+ }
+}
+.apply-img{
+  position: absolute;
+  top: 60%;
+  left: 72%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* program box */
+
+.program-box{
+    height: 900px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f6ed;
+}
+
+.pr1{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pr1 h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #464645;
+}
+.pr2{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    
+}
+.pr2 a{
+    color: #cda454;
+    font-size: 1.1rem;
+}
+.pr2 a:hover{
+  color: #a06c2e;
+  font-weight: 600;
+}
+#how{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pr3{
+   width: 100%;
+   height: 66%;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   margin-bottom: 2rem;
+
+}
+.kis1{
+    width: 25%;
+    height: 87%;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    background-image: url("/MARWADI/IMAGE/program-img.png");
+    background-size: cover;
+    background-position: center;
+    animation: slideleft 1s ease forwards;  
+
+}
+.kis2{
+    width: 60%;
+    height: 87%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+
+    
+   
+}
+.krish{
+    border: .5px solid #e0c795;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    color: #565654;
+    font-weight: bold;
+    transition: 0.3s ease;
+    position: relative;
+}
+ .icon {
+    position: absolute;
+    bottom: 73%;
+    left: 76%;
+    width: 35%;
+    height: 35%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* so it doesn't block hover */
+  }
+
+  .krish:hover .icon {
+    opacity: 1;
+  }
+.krish:hover{
+  background-color:  #ffffff;
+  transform: rotate(-1.1deg);
+}
+.krish img{
+  height: 48px;
+  width: 48px;
+}
+
+.pr2 #how a{
+   
+    position: relative;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.pr2 #how a::before {
+
+    content: "";
+    width: 0%;
+    height: 1.2px;
+    background-color:#a06c2e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.pr2 #how a:hover::before {
+    width: 100%;
+}
+
+
+
+/* this is for the why part */
+
+.why-us{
+  width: 100%;
+  height: 450px;
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+}
+.why1{
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  
+  align-items: end;
+}
+.why1 h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+}
+.why2{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.why-box{
+  height: 200px;
+  width: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.why-box span{
+  position: relative;
+}
+.s1 h1{
+  font-size: 2.7rem;
+  position: absolute;
+   top: 1.2rem;
+   color: #333333;
+   font-weight: 600;
+}
+.why-box  p{
+  font-size: 1.6rem;
+  color: #565654;
+}
+
+.s2 h2{
+  
+  position: absolute;
+  font-size: 2.7rem;
+  top: 1rem;  
+  color: #333333;
+  font-weight: 600;
+ 
+}
+.s3 h1{
+  position:absolute;
+  color: #333333;
+  font-size: 2.7rem;
+  font-weight: 600;
+  bottom: 1%; 
+}
+
+.s4 h1{
+  font-size: 2.7rem;
+  color: #333333;
+  position: absolute;
+  top: 1rem;
+}
+
+/* this is for the facility box */
+.facility-box{
+  width: 100%;
+  height: 480px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.fac-box{
+  width: 89%;
+  height: 85%;
+  /* border: 1px solid black; */
+  position: relative; 
+}
+.fac-box img{
+  position: absolute;
+  height: 430px;
+  left: 34.5%;
+}
+.span-box{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.span-box span{
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #d6b86e;  
+}
+
+.span-box .spanish span:hover{
+   color:#47433c;
+   cursor: pointer;
+}
+
+.fac-head{
+  position: absolute;
+
+}
+.fac-box .fac-head{
+   font-size: 1.42rem;
+   font-weight: 600;
+   top: 18%;
+   left: 33.6%;
+   color: #333333;
+}
+
+    .pop {
+      position: relative;
+      display: inline-block;
+    }
+
+    .pop img {
+      position: absolute;
+      bottom: 100%; /* place image above the text */
+      left: 50%;
+      transform: translateX(-50%) rotate(-2deg); /* centered + tilted */
+      opacity: 0;
+      transition: opacity 0.4s ease, transform 0.7s ease;
+      width: 200px; /* adjust image size */
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      pointer-events: none; /* so image doesn’t block hover */
+    }
+
+    .pop:hover img {
+      opacity: 1; 
+      transform: translateX(-50%) rotate(-2deg); /* keep tilt while visible */
+    }
+
+/*  award part*/
+.award-con{
+  width: 100%;
+  height: 380px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5D4A3;
+  background-image: url("/MARWADI/IMAGE/asset\ 159.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  gap: 1rem;
+  position: relative;
+}
+.award-logo{
+  width: 17%;
+  height: 340px;
+  /* border: 1px solid black; */
+}
+.award-logo img{
+  position: absolute;
+  top: 10%;
+  left: 5.5%;
+}
+.award-logo h2{
+  font-size: 42px;
+  color: #6C4327;
+  position: absolute;
+  top: 38%;
+}
+.award-logo span{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 700;
+  color: #6C4327;
+  position: absolute;
+  top: 65%;
+}
+
+.award-desc{
+  width: 70%;
+  height: 230px;
+  /* border: 1px solid black; */
+}
+.award-desc p{
+  font-size: 21px;
+  font-weight: 400;
+  color: #3f3f3f;
+  letter-spacing: normal;
+  padding-top: 10%;
+  
+  
+}
+
+
+/* campus tour */
+
+.campus-box{
+  width: 100%;
+  height: 1000px;
+  /* border: 1px solid black; */
+  background-color: #f9f6ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.camp1{
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.camp1 h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.camp2{
+  width: 90%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1rem; */
+  /* border: 1px solid black; */
+}
+
+.ritz1 {
+  height: 100%;
+  width: 27%;
+  /* border: 1px solid black; */
+  border-radius: 1.7rem;
+  overflow: hidden; /* so image won't spill outside when scaled */
+  
+}
+
+.ritz1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1.7rem;
+  transition: transform .5s ease-in-out; /* smooth zoom */
+}
+
+.ritz1:hover img {
+  transform: scale(1.15); /* zoom in */
+}
+
+
+
+
+
+.ritz2{
+  height: 100%;
+  width: 72%;
+  /* border: 1px solid black; */
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  gap: 1rem;
+}
+
+.ritz-box1{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+   overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/campus-beat.png");
+   background-position: center;
+   background-size: cover;
+     transition: transform 0.6s ease;
+ }
+ .ritz-box1:hover{
+   transform: scale(1.1);
+}
+
+.ritz-box2{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+    overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/cultural-festival.jpg");
+   background-position: center;
+   background-size: cover;
+    transition: transform 0.6s ease;
+}
+.ritz-box2:hover{
+   transform: scale(1.1);
+}
+
+.ritz-box3{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+    overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/mu-fest.jpg");
+   background-position: center;
+   background-size: cover;
+    transition: transform 0.6s ease;
+}
+.ritz-box3:hover{
+   transform: scale(1.1);
+}
+
+.ritz-box4{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+    overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/anish.jpg.jpg");
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.6s ease;
+}
+.ritz-box4:hover{
+   transform: scale(1.1);
+}
+
+.ritz-box5{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+    overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/image2.png");
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.6s ease;
+}
+.ritz-box5:hover{
+   transform: scale(1.1);
+}
+
+.ritz-box6{
+   /* border: 1px solid black; */
+   border-radius: 1.9rem;
+    overflow: hidden;
+   background-image: url("/MARWADI/IMAGE/prabhat.jpg");
+   background-position: center;
+   background-size: cover;
+ transition: transform 0.6s ease; /* smooth effect */
+}
+.ritz-box6:hover{
+   transform: scale(1.1);
+}
+
+
+/* this part is related to the story container */
+
+.stories-container{
+  height: 900px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.sc1{
+  width: 100%;
+  height: 22%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.sc1 h1{
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #333333;
+}
+.sc2{
+  margin-top: 2.2rem;
+  height: 8%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+}
+.sc2 .sc2-box{
+  
+  width: 36%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+.sc2-box a{
+  font-size:1.1rem;
+  font-weight: 600;
+  color: #d6b86e;
+}
+
+
+.sc2 .sc2-box a{
+   
+    position: relative;
+    padding-bottom: .5rem;
+}
+
+.sc2 .sc2-box a::before {
+
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color:#a06c2e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.sc2 .sc2-box a:hover::before {
+    width: 100%;
+}
+.sc2 .sc2-box a:hover{
+ color: #a06c2e;
+
+}
+
+
+.sc3{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.sc3-box{
+  height: 100%;
+  width: 75%;
+  /* border: 1px solid rgb(170, 29, 29); */
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(3,.5fr);
+  gap: 2rem;
+  
+}
+.sc3-box, .vivo,.vivo2,.vivo3{
+  /* border: 1px solid black; */
+  border-radius: 1.3rem;
+  
+}
+
+.sc3-box .vivo{
+  background-image: url(/MARWADI/IMAGE/priya-modi-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sc3-box .vivo2{
+  background-image: url(/MARWADI/IMAGE/Vyom-Damodara-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.sc3-box .vivo3{
+  background-image: url(/MARWADI/IMAGE/Priyanka-Shah-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* this part is related to the association part */
+.association{
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recognition-box{
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.recognition-icon{
+  width: 15%;
+  height: 200px;
+  /* border: 1px solid black; */
+}
+
+/* this is related to the infocus part */
+.focus-con{
+  margin-top: 4rem;
+  width: 100%;
+  height: 1000px;
+  /* border: 1px solid black; */
+}
+.focus-head{
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.focus-head h1{
+  font-size: 40px;
+   color: rgb(55, 50, 50);
+}
+.different-card-con{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card-row1{
+  width: 96%;
+  height: 410px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.diff-card{
+  width: 27%;
+  height: 420px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.diff-card h3{
+  color: rgb(55, 50, 50);
+}
+.diff-card p{
+  color: rgb(55, 50, 50); 
+}
+.diff-card h2{
+  color: #af7f1e;
+}
+.f-img{
+  width: 100%;
+  height: 65%;
+  border-radius: 10px;
+}
+
+
+.card-row2{
+  width: 96%;
+  height: 410px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* this is for the footer part */
+
+footer{
+  height: 1050px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+   flex-direction: column;
+   /* background-color: #f9f6ed; */
+}
+
+.foot1{
+  height: 23%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  background-color: #f9f6ed;
+}
+.foot1-box{
+  width: 87%;
+  height: 95%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.foot1-box h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.foot-content{
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+.foot-panner{
+  border: 1px solid #d9ba7c;
+  height: 65%;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffffff;
+  transition: transform .1s ease-in;
+}
+.foot-panner:hover{
+  transform: rotate(-1deg);
+background: linear-gradient(to right, rgba(0, 255, 255, 0.1), rgba(75, 0, 130, 0.1));
+ border: none;
+
+}
+
+.foots-box{
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  gap: .2rem;
+
+}
+.foots-box h2{
+  font-weight: bold;
+ color: #cda454;
+}
+
+
+.foot2{
+  width: 100%;
+  height: 730px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f3ea;
+}
+
+.foot2-box-container{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.foot2-box{
+  height: 97%;
+  width: 91%;
+  /* border: 1px solid black; */
+}
+
+
+.ul-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.li-head{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:#464645
+}
+.ul-list li{
+  color:#b4b2ad;
+  font-size: 1.1rem;
+}
+.ul-list li:hover{
+  color: #3f3f3f;
+}
+
+.apple-box{
+  width: 74%;
+  height: 5%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.apple-box img{
+  height: 100%;
+  
+  
+}
+
+
+.social-box{
+  display: flex;
+  height: 27px;
+  gap: 7px;
+}
+.social-box img{
+  height: 100%;
+  
+}
+
+
+.foot3{
+  height: 8%;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content:center;
+  background-color: #e0d8cb;
+}
+.foot3-box1{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #333333;
+  font-size: 1.1rem;
+}
+.foot3-box2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+   color: #333333;
+   font-size: 1.1rem;
+}
+
+.foot3-content{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+
+}
+
